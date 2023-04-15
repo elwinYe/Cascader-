@@ -5,8 +5,7 @@
 import { ref, type Ref } from 'vue'
 import { getDataByName } from '@/network/getDataByName'
 
-console.log('elwin')
-
+const add = () => {}
 //动态绑定adcode
 const value = ref('')
 // 加载函数
