@@ -1,11 +1,11 @@
 <template>
-
   <Cascader :load="load" v-model:value="value" />
-
 </template>
 <script lang="ts" setup>
-import { ref, type Ref } from 'vue';
-import { getDataByName } from '@/network/getDataByName';
+import { ref, type Ref } from 'vue'
+import { getDataByName } from '@/network/getDataByName'
+
+console.log('elwin')
 
 //动态绑定adcode
 const value = ref('')
